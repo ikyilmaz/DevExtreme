@@ -1,0 +1,16 @@
+/**
+ * DevExtreme (cjs/__internal/grids/pivot_grid/const.js)
+ * Version: 24.1.7
+ * Build date: Wed Oct 30 2024
+ *
+ * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
+ * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ */
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.CLASSES = void 0;
+const CLASSES = exports.CLASSES = {
+    scrollBarMeasureElement: "dx-pivotgrid-scrollbar-measure-element"
+};

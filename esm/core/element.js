@@ -1,0 +1,21 @@
+/**
+ * DevExtreme (esm/core/element.js)
+ * Version: 24.1.7
+ * Build date: Wed Oct 30 2024
+ *
+ * Copyright (c) 2012 - 2024 Developer Express Inc. ALL RIGHTS RESERVED
+ * Read about DevExtreme licensing here: https://js.devexpress.com/Licensing/
+ */
+export function getPublicElementNonJquery(element) {
+    if (element && element.get) {
+        return element.get(0)
+    }
+    return element
+}
+let strategy = getPublicElementNonJquery;
+export function getPublicElement(element) {
+    return strategy(element)
+}
+export function setPublicElementWrapper(newStrategy) {
+    strategy = newStrategy
+}
